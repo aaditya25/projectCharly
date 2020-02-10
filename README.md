@@ -12,8 +12,8 @@
 6. Initialize CodeceptJS in current directory by running:
    ***npx codeceptjs init***
    (use node node_modules/.bin/codeceptjs if you have issues with npx)
-   a. Answer questions. Agree on defaults, when asked to select helpers choose Puppeteer. 
-   b. 
+   >a. Answer questions. Agree on defaults, when asked to select helpers choose Puppeteer. 
+   >b.  
 
 #### Installing Allure for reporting
 7. Allure requires Java 8 to work. Then Allure can be installed via NPM:
