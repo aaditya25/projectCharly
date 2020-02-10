@@ -6,23 +6,22 @@
 2. Install "node.js"
 3. Install the respective latest version of dependencies mentioned in package.json file.
 4. If you start with empty project initialize npm first:
-    *npm init -y
+    ***npm init -y***
 5. Now install CodeceptJS with Puppeteer
-  *npm install codeceptjs puppeteer --save-dev
+  ***npm install codeceptjs puppeteer --save-dev***
 6. Initialize CodeceptJS in current directory by running:
-   *npx codeceptjs init*
+   ***npx codeceptjs init***
    (use node node_modules/.bin/codeceptjs if you have issues with npx)
    a. Answer questions. Agree on defaults, when asked to select helpers choose Puppeteer. 
    b. 
 
-####Installing Allure for reporting
+#### Installing Allure for reporting
 7. Allure requires Java 8 to work. Then Allure can be installed via NPM:
-  *npm install -g allure-commandline --save-dev*
+  ***npm install -g allure-commandline --save-dev***
 8. Add Allure plugin in config under plugins section in codecept.config.js file
-   allure": {
-            outputDir: './output'
-        },
-        
+   ***allure": {***
+            ***outputDir: './output'***
+        ***},***
 9. Run tests with allure plugin enabled:
   *npx codeceptjs run --plugins allure*
 10.Launch Allure server and see the report like on a screenshot above:
