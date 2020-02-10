@@ -1,0 +1,24 @@
+{
+  "name": "projectCharly",
+  "version": "1.0.0",
+  "description": "UI test cases for login page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaditya25/projectCharly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaditya25/projectCharly/issues"
+  },
+  "homepage": "https://github.com/aaditya25/projectCharly#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.4.3",
+    "puppeteer": "^2.1.1"
+  }
+}
