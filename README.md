@@ -31,7 +31,7 @@
             ***outputDir: './output'***  
         ***},***  
 9. Run tests with allure plugin enabled:  
-  ***npx codeceptjs run --plugins allure***  
-10.Launch Allure server and see the report like on a screenshot above:
-***allure serve output***
+  ***npx codeceptjs run --plugins allure***   
+10. Launch Allure server and see the report like on a screenshot above:   
+  ***allure serve output***   
 11. Push the changes to GitHub (exclude node_modules files).
