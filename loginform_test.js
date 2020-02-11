@@ -38,7 +38,6 @@ Scenario('Should give you error for not entering password', (I) => {// Should di
 
     //Assert to find out whether the user is directed to correct URL
     I.seeInCurrentUrl('https://accounts.cloud.charly.education/login');
-    //I.seeInField('Entweder sind deine E-Mail oder Passwort inkorrekt','.register-subtitle');
 });
         
 
@@ -58,7 +57,6 @@ Scenario('Should give you error for not entering email', (I) => { // Should disp
 
     //Assert to find out whether the user is directed to correct URL
     I.seeInCurrentUrl('https://accounts.cloud.charly.education/login')
-    //I.seeInField('Entweder sind deine E-Mail oder Passwort inkorrekt','.register-subtitle');
 });
 
 
@@ -78,7 +76,6 @@ Scenario('Should give you error for invalid email address', (I) => { // Should d
 
     //Assert to find out whether the user is directed to correct URL    
     I.seeInCurrentUrl('https://accounts.cloud.charly.education/login')
-    //  I.seeInField('Entweder sind deine E-Mail oder Passwort inkorrekt','.register-subtitle');
 });    
 
 
@@ -98,7 +95,6 @@ Scenario('Should give you error for invalid password', (I) => {  // Should displ
 
     //Assert to find out whether the user is directed to correct URL
     I.seeInCurrentUrl('https://accounts.cloud.charly.education/login')
-    // I.seeInField('Entweder sind deine E-Mail oder Passwort inkorrekt','.register-subtitle');                
 });            
 
 
